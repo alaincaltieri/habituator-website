@@ -1,0 +1,56 @@
+---
+---
+
+@import "no-style-please";
+
+img.icon {
+	display: block;
+	width: 50%;
+	max-width: 200px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+b {
+	color: #CB2C2B;
+}
+
+a {
+	color: black;	
+}
+
+h2 {
+	line-height: 1.2;
+}
+
+ul {
+	line-height: 1.2;
+}
+
+.download {
+	text-align: center;
+}
+
+ul.nav-links {
+	
+}
+
+ul.nav-links li {
+}
+
+@media (min-width:900px) {
+	ul.nav-links {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 0px;
+}
+
+ul.nav-links li {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+}

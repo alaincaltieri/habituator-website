@@ -49,7 +49,24 @@ screenshots:
     - assets/media/AppStore/iPhone/xMax-07.png
     - assets/media/AppStore/iPhone/xMax-08.png
     - assets/media/AppStore/iPhone/xMax-09.png
-
+  iPad:
+    - assets/media/AppStore/iPad/iPad-01.png
+    - assets/media/AppStore/iPad/iPad-02.png
+    - assets/media/AppStore/iPad/iPad-03.png
+    - assets/media/AppStore/iPad/iPad-04.png
+    - assets/media/AppStore/iPad/iPad-05.png
+    - assets/media/AppStore/iPad/iPad-06.png
+    - assets/media/AppStore/iPad/iPad-07.png
+    - assets/media/AppStore/iPad/iPad-08.png
+    - assets/media/AppStore/iPad/iPad-09.png
+  watch:
+    - assets/media/AppStore/watchOS/watch-01.png
+    - assets/media/AppStore/watchOS/watch-02.png
+    - assets/media/AppStore/watchOS/watch-03.png
+    - assets/media/AppStore/watchOS/watch-04.png
+    - assets/media/AppStore/watchOS/watch-05.png
+    - assets/media/AppStore/watchOS/watch-06.png
+    
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

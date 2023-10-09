@@ -70,6 +70,25 @@ ul.nav-links li {
 
 // Screenshots gallery
 
+div.screenshots-picker {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+div.screenshots-picker a {
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+a.selected {
+	text-decoration-line: underline;
+    text-decoration-color: #CB2C2B;
+    text-decoration-thickness: 3px;
+}
+
 div.gallery-wrapper {
 	width: 100%;
 	height: 350px;
@@ -77,6 +96,11 @@ div.gallery-wrapper {
 	overflow-y: hidden;
 	
   	white-space: nowrap;
+  	display: none;
+}
+
+div.active {
+	display: block;
 }
 
 div.gallery {
@@ -94,8 +118,6 @@ div.gallery img {
 }
 
 .responsive {
-  padding: 0 0px;
-  // float: left;
   width: 24.99999%;
   display: inline-block;
 }
@@ -103,17 +125,30 @@ div.gallery img {
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
-    margin: 6px 0;
   }
 }
 
-/*
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
+.responsive-ipad {
+  width: 44.99999%;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive-ipad {
+    width: 89.99999%;
   }
 }
-*/
+
+.responsive-watch {
+  width: 34.99999%;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive-watch {
+    width: 59.99999%;
+  }
+}
 
 .clearfix:after {
   content: "";

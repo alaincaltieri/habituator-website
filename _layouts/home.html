@@ -6,6 +6,7 @@ layout: default
   {%-if site.theme_config.show_description-%}
     <p>{{ site.description }}</p>
   {%-endif-%}
+  <script src="/assets/js/custom.js"></script>
 </header>
 
 <img src="/icon.png" class="icon">
@@ -17,25 +18,25 @@ layout: default
 
 
 <h2>Intuitively beautiful</h2>
-<p>The perfect blend of functionality and aesthetics. Designed for a seamless and appealing user experience.</p>
+<p>The perfect blend of functionality and aesthetics.</p>
 
 <img src="/assets/media/features-1.png" class="features">
 
 <h2>Track from anywhere</h2>
-<p>Interactive widgets, watchOS app and complications to complete your habits anytime, anywhere.</p>
+<p>Including interactive widgets, watchOS app and complications.</p>
 
 <img src="/assets/media/features-2.png" class="features">
 
 <h2>See the progress</h2>
-<p>Rich stats, filters and graphs to know your habits with precision and confidence.</p>
+<p>With rich stats, filters and colourful graphs.</p>
 
 <img src="/assets/media/features-3.png" class="features">
 
 <h2></h2>
 <p class="download">
+  Try it: you get 3 habits for free with most features inlcuded.<br><br>
+  <a href="https://apps.apple.com/us/app/habituator-habit-tracker/id1440005368?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1544659200" alt="Download on the App Store" style="border-radius: 13px; width: 200px; height: auto;"></a>
   
-  <a href="https://apps.apple.com/us/app/habituator-habit-tracker/id1440005368?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1544659200" alt="Download on the App Store" style="border-radius: 13px; width: 200px; height: auto;"></a><br>
-  Try it: you get 3 habits for free with most features inlcuded.
 </p>
 
 <h2>There's more:</h2>
@@ -51,12 +52,44 @@ layout: default
   <li>🌈 Customisable user experience.</li>
   <li>☁️ Backup and sync with iCloud.</li>
   <li>💾 Export/Import your data.</li>
+  <li>⛔️ No ads. No tracking.</li>
 </ul>
 
 
-<div class="gallery-wrapper">
+<h2>See by yourself:</h2>
+<div class="screenshots-picker">
+  <a onclick="selectScreenshots(0);" id="screenshot-menu-0">iPhone</a>
+  <a onclick="selectScreenshots(1);" id="screenshot-menu-1">iPad</a>
+  <a onclick="selectScreenshots(2);" id="screenshot-menu-2">Watch</a>
+</div>
+
+<div class="gallery-wrapper" id="screenshots-0" class="active">
   {% for screenshot in site.screenshots.iPhone %}  
   <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="{{ screenshot | absolute_url }}">
+        <img src="{{ screenshot }}" alt="App Store Screenshot" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="gallery-wrapper" id="screenshots-1">
+  {% for screenshot in site.screenshots.iPad %}  
+  <div class="responsive-ipad">
+    <div class="gallery">
+      <a target="_blank" href="{{ screenshot | absolute_url }}">
+        <img src="{{ screenshot }}" alt="App Store Screenshot" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="gallery-wrapper" id="screenshots-2">
+  {% for screenshot in site.screenshots.watch %}  
+  <div class="responsive-watch">
     <div class="gallery">
       <a target="_blank" href="{{ screenshot | absolute_url }}">
         <img src="{{ screenshot }}" alt="App Store Screenshot" width="600" height="400">
@@ -76,11 +109,12 @@ layout: default
 </ul>
 
 <h2>Fair price policy</h2>
-<p>You can get the app forever for $19.99 or pay as you go: $9.99 yearly, $0.99 monthly. All features and all future updates are always included.</p>
+<p>Get the app forever for $19.99 or pay as you go: $9.99/year, $0.99/month. <br>
+All features and all updates are included.</p>
 
 <h2></h2>
 <p class="download">
-  Try it, the first 3 habits are free. <br>
+  Last time, I beg you: <br> download the app, you won't regret it. <br><br>
   <a href="https://apps.apple.com/us/app/habituator-habit-tracker/id1440005368?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1544659200" alt="Download on the App Store" style="border-radius: 13px; width: 200px; height: auto;"></a>
 </p>
 

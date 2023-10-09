@@ -12,6 +12,14 @@ img.icon {
 	margin-right: auto;
 }
 
+img.features {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 b {
 	color: #CB2C2B;
 }
@@ -46,16 +54,69 @@ ul.nav-links li {
 
 @media (min-width:900px) {
 	ul.nav-links {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	padding: 0px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		padding: 0px;
+	}
+
+	ul.nav-links li {
+		display: inline;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 
-ul.nav-links li {
-	display: inline;
-	padding-left: 20px;
-	padding-right: 20px;
+// Screenshots gallery
+
+div.gallery-wrapper {
+	width: 100%;
+	height: 350px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	
+  	white-space: nowrap;
 }
+
+div.gallery {
+  border: 1px solid #fff;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.responsive {
+  padding: 0 0px;
+  // float: left;
+  width: 24.99999%;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+/*
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+*/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }

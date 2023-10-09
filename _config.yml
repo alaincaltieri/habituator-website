@@ -38,6 +38,18 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+screenshots:
+  iPhone:
+    - assets/media/AppStore/iPhone/xMax-01.png
+    - assets/media/AppStore/iPhone/xMax-02.png
+    - assets/media/AppStore/iPhone/xMax-03.png
+    - assets/media/AppStore/iPhone/xMax-04.png
+    - assets/media/AppStore/iPhone/xMax-05.png
+    - assets/media/AppStore/iPhone/xMax-06.png
+    - assets/media/AppStore/iPhone/xMax-07.png
+    - assets/media/AppStore/iPhone/xMax-08.png
+    - assets/media/AppStore/iPhone/xMax-09.png
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

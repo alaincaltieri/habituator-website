@@ -67,6 +67,39 @@ screenshots:
     - assets/media/AppStore/watchOS/watch-05.png
     - assets/media/AppStore/watchOS/watch-06.png
     
+reviews:
+  - author: ahpppppago
+    title: Best Habit App Ever!
+    text: LOVE the way you made this app it’s amazing I made so many lists and it’s more than just tracking for me it’s routines it’s goals They also update often and respond to concerns! 10/10 :)
+    rating: 5
+    country: United States
+  - author: Sherylc6
+    title:  Best habit app
+    text: I’ve tried every habit app, and this is my favorite. The art and design is so cool. Marking habits is rewarding. I just use checklists for my required daily stuff, but habit apps are great for that “extra” stuff that you want to do to meet goals or get better at doing. I’ve found that I use this app most consistently- 5 stars! The one thing I’m not a fan of is the sound, which I turned off, but the unique icons make up for it.
+    rating: 5
+    country: United States
+  - author: EmeraldJimmy
+    title: Helps organise my day
+    text: Like others using this app I have ADHD, and after trying many, many other apps, this one is easily the most effective for my needs.
+    rating: 5
+    country: United Kingdom
+  - author: 노트매닉
+    title: It’s awesome!!
+    text: I enjoy this app very much every single day. This is so helpful for me to keep track on my daily life. I recommend this to everybody who wants to manage thier life in more organized fashion. Thanks for the developers of this app.
+    rating: 5
+    country: Korea, Republic of
+  - author: okhhhferd
+    title: Love it!
+    text: I use the Lock Screen widget and the app helps me to keep track of key goals. Thank you for this useful app.
+    rating: 5
+    country: India
+  - author: JoseLuisScorpio
+    title: It is very good, intuitive and funny
+    text: I really liked the way of creating the habits and simplicity that we can apply here, congrats!
+    rating: 5
+    country: Mexico
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

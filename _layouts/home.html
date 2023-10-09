@@ -101,12 +101,20 @@ layout: default
 
 <div class="clearfix"></div>
 
-<h2>Don't trust me, trust them:</h2>
-<ul class="reviews">
-  <li>
-    TODO
-  </li>
-</ul>
+
+<h2>Trust them:</h2>
+<div class="slides">
+  {% for review in site.reviews %}  
+  <div id="slide-1">
+    <h4> ★★★★★ {{ review.title }}</h4>
+    <p>
+      <i>{{ review.author }} - {{ review.country }}</i> <br>
+      {{ review.text }}
+    </p>
+  </div>
+  {% endfor %}
+</div>
+
 
 <h2>Fair price policy</h2>
 <p>Get the app forever for $19.99 or pay as you go: $9.99/year, $0.99/month. <br>
@@ -114,7 +122,7 @@ All features and all updates are included.</p>
 
 <h2></h2>
 <p class="download">
-  Last time, I beg you: <br> download the app, you won't regret it. <br><br>
+  One last time: <br> download the app, you won't regret it. <br><br>
   <a href="https://apps.apple.com/us/app/habituator-habit-tracker/id1440005368?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1544659200" alt="Download on the App Store" style="border-radius: 13px; width: 200px; height: auto;"></a>
 </p>
 

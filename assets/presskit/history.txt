@@ -1,0 +1,28 @@
+Habituator was created in 2018 as a free, minimal and simple habit tracker.
+
+Until 2022 it was just that, a side project of mine that I was using for myself and sharing with other people. Then I needed a few more features and, as everyone does, I searched for a good established app on the App Store. 
+
+There are good products in there, but no one that was really what I was looking for. Some were not easy to use at all, had hidden commands and long tutorials. Others were simply ugly to see or were lacking the very features I was looking for. Many were just rip offs.
+
+I ended up creating what I think is the best habit tracker on the AppStore. It took me more than a year of almost full-time work but now the app is really good.
+
+Here's a short timeline:
+
+* December 2018 - Habituator was born, with a different name, free and very minimal.
+|
+* October 2022 - version 2: introducing basic stats and multiple times per day habits
+|
+* December 2022 - version 2.3.3 had already widgets, routines, habit groups and sorting, lots of customizations.
+|
+* Jan 2023 - 3.0.0, iCloud backup and sync + export of data to csv files.
+|
+* Mar 2023 - 4.0.0 Healthkit automatic tracking, habits to quit, completion sounds, habit colors, perfect day popups.
+|
+* July 2023 - 4.3.0: learning section, full blown stats page, restore a backup.
+|
+* August 2023 - 5.0.0 Watch app and completions. Welcome to the Habituator name.
+|
+* September 2022 - 5.2.0 Interactive widgets
+
+I'm still committed to improving the app and adding only features that make sense and do not make the core experience cumbersome. I'm also starting to promote the app a bit: it's a shame people still don't know it.
+

@@ -1,0 +1,40 @@
+Habituator is an Habit tracker app for iOS, iPadOS and watchOS.
+
+A habit tracker helps form new habits by reinforcing a desired behavior. Tracking a completion and getting a little feedback helps users be consistent, as supported by the scientific literature and most books about the topic [1][2].
+
+Habituator provides proven tools to increase habit retention:
+- Completion rewards: sounds, vibrations and motivational messages are shown when habits are completed.
+- Streaks: users get a score when they consistently complete a habit.
+- Mastery levels: users get a badge with a level based on their mastery of a habit.
+- Learning section: to know more about how habits work and how to master them.
+
+"L'occhio vuole la sua parte" is something we often say in Italy. It means that the look of something contributes to the overall quality and functionality of a product. Habituator has a beautiful, colorful but minimal design, with simple and clear usage flows that hides most of the complexity and helps users discover advanced features at their own pace, without tours, tutorials or guides (which are anyway included for some OS features like widgets).
+
+Creating a habit takes literally a few seconds. Completing habits takes just a tap. Yet the app offers a ton of advanced features like automatic health kit tracking, interactive widgets (iOS 17+) and powerful customizable reminders. 
+
+Here's a full list of features:
+- Build or quit habits.
+- Interactive widgets.
+- Watch app and complications.
+- Stats with filters and charts.
+- HealthKit automatic tracking.
+- Siri and custom Shortcuts support.
+- Learn the science of habits.
+- Powerful reminders.
+- Customisable user experience.
+- Backup and sync with iCloud.
+- Export/Import your data.
+- No ads. No tracking.
+
+All data is saved on iCloud with automatic backup and sync on multiple devices. Users can disable iCloud if they want to, then data is only saved on the device. 
+
+A note about pricing: users get 3 full habits for free, with very few limitations. To unlock all features users can pick 3 options:
+- $0.99 Monthly
+- $9.99 Yearly (2 months free)
+- $19.99 Lifetime 
+
+All plans include all features and all future updates. The app does not use ads, not even in the free plan, nor collects nor sells user data. 
+
+References:
+[1]: Atomi Habits by James Clear (https://a.co/d/7Rvb5vh)
+[2]: The power of habit by Charles Duhigg (https://a.co/d/2Xhmq9Z)

@@ -17,7 +17,8 @@ theme_config:
   show_description: true
 
 # Build settings
-remote_theme: riggraz/no-style-please
+# theme: no-style-please  # Use this locally
+remote_theme: riggraz/no-style-please  # Use this to deploy
 
 plugins:
   - jekyll-feed

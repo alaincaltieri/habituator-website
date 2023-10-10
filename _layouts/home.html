@@ -6,13 +6,13 @@ layout: default
   {%-if site.theme_config.show_description-%}
     <p>{{ site.description }}</p>
   {%-endif-%}
-  <script src="/assets/js/custom.js"></script>
+  <script src="{{ '/assets/js/custom.js' | absolute_url }}"></script>
 </header>
 
 <img src="/icon.png" class="icon">
 
 <ul class="nav-links">
-  <li><a href="TODO">Press Kit</a></li>
+  <li><a href="{{ '/assets/presskit.zip' | absolute_url }}">Press Kit</a></li>
   <li><a href="https://apple.co/3PqueKO">Download</a></li>  
 </ul>
 
@@ -20,17 +20,17 @@ layout: default
 <h2>Intuitively beautiful</h2>
 <p>The perfect blend of functionality and aesthetics.</p>
 
-<img src="/assets/media/features-1.png" class="features">
+<img src="{{ '/assets/media/features-1.png' | absolute_url }}" class="features">
 
 <h2>Track from anywhere</h2>
 <p>Including interactive widgets, watchOS app and complications.</p>
 
-<img src="/assets/media/features-2.png" class="features">
+<img src="{{ '/assets/media/features-2.png' | absolute_url }}" class="features">
 
 <h2>See the progress</h2>
 <p>With rich stats, filters and colourful graphs.</p>
 
-<img src="/assets/media/features-3.png" class="features">
+<img src="{{ '/assets/media/features-3.png' | absolute_url }}" class="features">
 
 <h2></h2>
 <p class="download">
@@ -68,7 +68,7 @@ layout: default
   <div class="responsive">
     <div class="gallery">
       <a target="_blank" href="{{ screenshot | absolute_url }}">
-        <img src="{{ screenshot }}" alt="App Store Screenshot" width="600" height="400">
+        <img src="{{ screenshot | absolute_url }}" alt="App Store Screenshot" width="600" height="400">
       </a>
     </div>
   </div>
@@ -80,7 +80,7 @@ layout: default
   <div class="responsive-ipad">
     <div class="gallery">
       <a target="_blank" href="{{ screenshot | absolute_url }}">
-        <img src="{{ screenshot }}" alt="App Store Screenshot" width="600" height="400">
+        <img src="{{ screenshot | absolute_url }}" alt="App Store Screenshot" width="600" height="400">
       </a>
     </div>
   </div>
@@ -92,7 +92,7 @@ layout: default
   <div class="responsive-watch">
     <div class="gallery">
       <a target="_blank" href="{{ screenshot | absolute_url }}">
-        <img src="{{ screenshot }}" alt="App Store Screenshot" width="600" height="400">
+        <img src="{{ screenshot | absolute_url }}" alt="App Store Screenshot" width="600" height="400">
       </a>
     </div>
   </div>
@@ -128,7 +128,7 @@ All features and all updates are included.</p>
 
 
 <ul class="nav-links">
-  <li><a href="TODO">Press Kit</a></li>
+  <li><a href="{{ '/assets/presskit.zip' | absolute_url }}">Press Kit</a></li>
   <li><a href="https://apple.co/3PqueKO">Download</a></li>
 </ul>
 

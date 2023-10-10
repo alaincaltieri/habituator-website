@@ -52,7 +52,7 @@ ul.nav-links {
 ul.nav-links li {
 }
 
-@media (min-width:900px) {
+// @media (min-width:900px) {
 	ul.nav-links {
 		display: block;
 		margin-left: auto;
@@ -65,6 +65,14 @@ ul.nav-links li {
 		display: inline;
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+// }
+
+@media (max-width:500px) {
+	ul.nav-links li {
+		//width: 100%;
+		display: block;
+		line-height: 2.0;
 	}
 }
 
@@ -162,7 +170,7 @@ div.slides p {
 }
 
 div.slides i {
-	font-size: 0.7em;
+	font-size: 0.75em;
 }
 
 div.slides h4 {

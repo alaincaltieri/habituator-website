@@ -12,8 +12,7 @@ theme_config:
   show_description: true
 
 # Build settings
-theme: no-style-please
-remote_theme: "riggraz/no-style-please@0.3.1"
+remote_theme: riggraz/no-style-please
 
 plugins:
   - jekyll-feed

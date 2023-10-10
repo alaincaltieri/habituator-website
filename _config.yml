@@ -2,8 +2,13 @@ title: Habituator
 email: help.chapps@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A clean <b>habit tracker</b> for iOS, iPadOS and watchOS.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://habituator.app" # the base hostname & protocol for your site, e.g. http://example.com
+
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://habituator.app" # the base hostname & protocol for your site, e.g. http://example.com
+
+baseurl: "/habituator-website"
+url: https://alaincaltieri.github.io
+
 twitter_username: jekyllrb
 github_username:  jekyll
 

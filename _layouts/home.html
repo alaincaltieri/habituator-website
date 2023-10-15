@@ -9,7 +9,11 @@ layout: default
   <script src="{{ '/assets/js/custom.js' | absolute_url }}"></script>
 </header>
 
-<img src="{{ '/icon.png' | absolute_url }}" class="icon">
+<picture>
+  <source srcset="{{ '/icon-dark.png' | absolute_url }}" media="(prefers-color-scheme: light)">
+  <img src="{{ '/icon.png' | absolute_url }}" class="icon">
+</picture>
+      
 
 <ul class="nav-links">
   <li><a href="{{ '/assets/presskit.zip' | absolute_url }}">Press Kit</a></li>

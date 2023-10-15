@@ -3,6 +3,34 @@
 
 @import "no-style-please";
 
+:root {
+  color-scheme: light dark;
+  --main-text-color: #FFFFFF;
+  --background-color: #292929;
+  --primary-color: #CB2C2B;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-text-color: #FFFFFF;
+    --background-color: #292929;
+    --primary-color: #FF706F;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-text-color: #222222;
+    --background-color: #FFFFFF;
+    --primary-color: #CB2C2B;
+  }
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+}
+
 img.icon {
 	display: block;
 	width: 50%;

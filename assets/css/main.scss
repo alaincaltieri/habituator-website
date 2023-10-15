@@ -49,11 +49,11 @@ img.features {
 }
 
 b {
-	color: #CB2C2B;
+	color: var(--primary-color);
 }
 
 a {
-	color: black;	
+	color: var(--main-text-color);	
 }
 
 h2 {
@@ -121,7 +121,7 @@ div.screenshots-picker a {
 
 a.selected {
 	text-decoration-line: underline;
-    text-decoration-color: #CB2C2B;
+    text-decoration-color: var(--primary-color);
     text-decoration-thickness: 3px;
 }
 

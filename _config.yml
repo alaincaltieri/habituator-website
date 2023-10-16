@@ -13,7 +13,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 theme_config:
-  appearance: "auto"
+  appearance: "light"
   show_description: true
 
 # Build settings

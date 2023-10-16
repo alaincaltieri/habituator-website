@@ -24,17 +24,26 @@ layout: default
 <h2>Intuitively beautiful</h2>
 <p>The perfect blend of functionality and aesthetics.</p>
 
-<img src="{{ '/assets/media/features-1.png' | absolute_url }}" class="features">
+<picture class="features">
+  <source srcset="{{ '/assets/media/features-1-dark.png' | absolute_url }}" media="(prefers-color-scheme: dark)" class="features">
+  <img src="{{ '/assets/media/features-1.png' | absolute_url }}" class="features">
+</picture>
 
 <h2>Track from anywhere</h2>
 <p>Including interactive widgets, watchOS app and complications.</p>
 
-<img src="{{ '/assets/media/features-2.png' | absolute_url }}" class="features">
+<picture class="features">
+  <source srcset="{{ '/assets/media/features-2-dark.png' | absolute_url }}" media="(prefers-color-scheme: dark)" class="features">
+  <img src="{{ '/assets/media/features-2.png' | absolute_url }}" class="features">
+</picture>
 
 <h2>See the progress</h2>
 <p>With rich stats, filters and colourful graphs.</p>
 
-<img src="{{ '/assets/media/features-3.png' | absolute_url }}" class="features">
+<picture class="features">
+  <source srcset="{{ '/assets/media/features-3-dark.png' | absolute_url }}" media="(prefers-color-scheme: dark)" class="features">
+  <img src="{{ '/assets/media/features-3.png' | absolute_url }}" class="features">
+</picture>
 
 <h2></h2>
 <p class="download">

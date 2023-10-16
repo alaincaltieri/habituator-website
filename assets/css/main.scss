@@ -36,6 +36,13 @@ body {
   color: var(--main-text-color);
 }
 
+@media (max-width:500px) {
+	div.wrapper {
+		margin: auto;
+	}
+}
+
+
 img.icon {
 	display: block;
 	width: 50%;
@@ -85,21 +92,19 @@ ul.nav-links {
 ul.nav-links li {
 }
 
-// @media (min-width:900px) {
-	ul.nav-links {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-		padding: 0px;
-	}
+ul.nav-links {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 0px;
+}
 
-	ul.nav-links li {
-		display: inline;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-// }
+ul.nav-links li {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
 @media (max-width:500px) {
 	ul.nav-links li {
